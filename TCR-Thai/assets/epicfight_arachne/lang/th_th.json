@@ -1,0 +1,12 @@
+{
+  "biome.epicfight_arachne.arachne_nest": "รังใยอารัคเน",
+  "entity.epicfight_arachne.arachne": "อารัคเน",
+  "item.epicfight_arachne.arachne_harp": "พิณทองคำ",
+  "item.epicfight_arachne.arachne_harp.tip_1": "[พิณที่ตกค้างอยู่ในโลกปัจจุบัน]",
+  "item.epicfight_arachne.arachne_harp.tip_2": "[ใช้แล้วจะพาไปยังรังใยอารัคเน หากใช้ในรังใยอารัคเนจะอัญเชิญอารัคเนออกมา]",
+  "item.epicfight_arachne.arachne_egg": "ไข่อารัคเน",
+  "item.epicfight_arachne.arachne_egg.tip_1": "[ไข่ที่ยังเจริญไม่เต็มที่จากในร่างอารัคเน]",
+  "item.epicfight_arachne.arachne_egg.tip_2": "[ใช้ในรังใยอารัคเนเพื่อกลับสู่จุดเกิดใหม่ หากใช้นอกรังจะพ่นพิษไปรอบตัว]",
+  "item.epicfight_arachne.arachne_egg.tip_3": "[พิษจะทำให้สิ่งมีชีวิตที่โดนติดสถานะพิษร้ายแรง]",
+  "item.epicfight_arachne.arachne_egg.tip_4": "[เมื่อพิษแตกออกจะทิ้งกลุ่มหมอกพิษไว้]"
+}

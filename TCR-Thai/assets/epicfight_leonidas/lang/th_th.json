@@ -1,0 +1,12 @@
+{
+  "biome.epicfight_leonidas.rockwind_ruins": "โบราณสถานผาลม",
+  "entity.epicfight_leonidas.leonidas": "ลีโอไนดัส",
+  "item.epicfight_leonidas.the_lost_helmet": "หมวกเกราะที่สาบสูญ",
+  "item.epicfight_leonidas.the_lost_helmet.tip_1": "[หมวกเกราะศึกที่ก่อขึ้นจากวิญญาณอาฆาตแห่งสปาร์ตา]",
+  "item.epicfight_leonidas.the_lost_helmet.tip_2": "[ใช้แล้วจะพาไปยังโบราณสถานผาลม หากใช้ในโบราณสถานผาลมจะอัญเชิญลีโอไนดัสออกมา]",
+  "item.epicfight_leonidas.the_bottomless_pouch": "ถุงร้อยสมบัติ",
+  "item.epicfight_leonidas.the_bottomless_pouch.tip_1": "[รางวัลที่ลีโอไนดัสมอบแก่ผู้กล้า]",
+  "item.epicfight_leonidas.the_bottomless_pouch.tip_2": "[ใช้ในโบราณสถานผาลมเพื่อกลับสู่จุดเกิดใหม่ หากใช้นอกโบราณสถานจะแลกเลือดเพื่อสุ่มรับสมบัติ]",
+  "item.epicfight_leonidas.the_bottomless_pouch.tip_3": "[ใช้แต่ละครั้งเสียเลือด 20% ของเลือดสูงสุด]",
+  "item.epicfight_leonidas.the_bottomless_pouch.tip_4": "[ใช้ไม่ได้เมื่อเลือดต่ำกว่า 40% ของเลือดสูงสุด]"
+}

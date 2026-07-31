@@ -1,0 +1,34 @@
+{
+  "effect.efx.efx_speed": "ความชำนาญการต่อสู้ II: เพิ่มความเร็ว",
+  "item.efx.scythe.description1": "",
+  "item.epicfightx.eternal_night_scythe": "เคียวราตรีนิรันดร์",
+  "itemGroup.efx.items": "Epic Fight - เนื้อหาเสริม",
+  "pack.epicfightx.efx_epicfight_assets_override.title": "EFX Asset Override Pack",
+  "pack.epicfightx.efx_epicfight_resource_pack.title": "Epic Fight Resource Pack ของ asanginxst",
+
+  "skill.epicfight.combat_mastery_i": "ความชำนาญการต่อสู้ I",
+  "skill.epicfight.combat_mastery_i.tooltip": "ท่านชำนาญขึ้นในการฉวยจังหวะระหว่างการโจมตีกับการหลบ ท่านจึงหลบได้ขณะโจมตี และต่อการโจมตีหลังหลบได้",
+  "skill.epicfight.combat_mastery_ii": "ความชำนาญการต่อสู้ II",
+  "skill.epicfight.combat_mastery_ii.tooltip": "ในช่วงเวลาสั้น ๆ หลังหลบ การวิ่งจะเข้าสู่สถานะ [Dash] ซึ่งจะกิน Stamina อย่างต่อเนื่อง",
+
+  "skill.epicfight.katana_skill": "ท่วงท่าหมุนเวียน",
+  "skill.epicfight.katana_skill.tooltip": "§8การโจมตีจะสะสมชั้นท่วงท่า (เอนแชนต์ Sweeping Edge เพิ่มเพดานได้) อาวุธปัจจุบันสะสมได้สูงสุด §e%s§8 ชั้น\n§8ใช้ตอนยืนเฉย: สลับระหว่างท่า §c[ชักดาบ] §8กับ §b[เก็บดาบ] §8โดยไม่เสียอะไร\n§8ใช้ตอนชะงักหลังโจมตี: ปล่อยการฟันที่หลบได้แบบอมตะ พร้อม §e[สลับท่า]§8\n§c[สกิลชักดาบ]§8: ใช้ชั้นทั้งหมด สร้างความเสียหายปิดท้ายตามตัวคูณของจำนวนชั้น\n§b[สกิลเก็บดาบ]§8: ใช้ชั้นทั้งหมด เพิ่มการฟันมิติอีก (จำนวนชั้น-1) ครั้ง",
+
+  "skill.epicfight.scythe_skill": "ตัดเศียร / บทเพลงสรรเสริญราตรี",
+  "skill.epicfight.scythe_skill.tooltip": "§8คว้าเป้าหมายที่อยู่ข้างหน้าหนึ่งตัว หากคว้าสำเร็จจะต่อท่าได้:\n  §6ตัดเศียร §a[คลิกซ้าย]§8: สร้างความเสียหาย (3× ความเสียหายอาวุธ + เลือดสูงสุดของเป้าหมาย)\n  §6บทเพลงสรรเสริญราตรี §a[คลิกขวา]§8: ทุ่มเป้าหมายลงพื้น สร้างความเสียหายเวทมนตร์มืด (8× ความเสียหายอาวุธ × 0.1) แล้วฟื้นเลือดให้ตนเองเท่ากัน\n§8หากคว้าเป้าหมายไม่ได้หรือพลาด จะปล่อยการฟันพลังสูงหนึ่งครั้งแทน",
+
+  "skill.epicfightx.combat_mastery_i": "ความชำนาญการต่อสู้ I",
+  "skill.epicfightx.combat_mastery_ii": "ความชำนาญการต่อสู้ II",
+  "skill.epicfightx.roll": "Roll",
+  "skill.epicfightx.step": "Step",
+
+  "subtitles.epicfightx.sound.bloody_hit_1": "เสียงเลือดไหล",
+  "subtitles.epicfightx.sound.bloody_hit_2": "เสียงเลือดไหล",
+  "subtitles.epicfightx.sound.bloody_slash": "เสียงฟันนองเลือด",
+  "subtitles.epicfightx.sound.bloody_slash_long": "เสียงฟันนองเลือด",
+  "subtitles.epicfightx.sound.demon_feast": "เสียงกลืนกิน",
+  "subtitles.epicfightx.sound.drain_damage": "เสียงร่ายเวท",
+  "subtitles.epicfightx.sound.drain_damage_hit": "เสียงเฉือนเนื้อ",
+  "subtitles.epicfightx.sound.drain_heal": "เสียงดูดกลืนชีวิต",
+  "subtitles.epicfightx.sound.grab": "เสียงคว้า"
+}
