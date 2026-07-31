@@ -1,0 +1,64 @@
+# TCR-Thai — คำแปลภาษาไทยสำหรับ Casket of Reveries
+
+Resource pack แปลภาษาไทยสำหรับม็อดแพ็ก **Casket of Reveries (梦之棺)**
+โดย [P1nero](https://github.com/P1neapplell0/TCRCore)
+
+แปลโดย **MercuryHeart123** · แปลจากต้นฉบับภาษาจีนโดยตรง (ไม่ได้แปลผ่านภาษาอังกฤษ)
+
+## ขอบเขต
+
+| ไฟล์ | จำนวน key |
+|---|---|
+| `assets/tcrcore/lang/th_th.json` | 919 |
+| `assets/structure_translations/lang/th_th.json` | 416 |
+| `assets/ftb_translations/lang/th_th.json` | 335 |
+| `assets/tcrcore/texts/` | บทส่งท้าย · เครดิต · ข้อความหลังเครดิต |
+
+## วิธีใช้
+
+### ฝั่งผู้เล่น
+
+1. โหลด `TCR-Thai.zip`
+2. วางในโฟลเดอร์ `resourcepacks` ของโปรไฟล์ม็อดแพ็ก
+3. เปิดเกม → Options → Resource Packs → เปิดใช้งาน
+4. **Options → Language → เลือก "ไทย"** ← ขั้นตอนนี้ขาดไม่ได้
+
+### ฝั่งเซิร์ฟเวอร์ (ส่งให้ผู้เล่นอัตโนมัติ)
+
+ใส่ใน `server.properties`:
+
+```properties
+resource-pack=<direct download URL ของ TCR-Thai.zip>
+resource-pack-sha1=<sha1 ที่ package-pack.ps1 พิมพ์ออกมา>
+require-resource-pack=true
+```
+
+> ⚠️ แก้ไฟล์แปลทุกครั้งต้องรัน `package-pack.ps1` ใหม่ แล้วอัปเดต `resource-pack-sha1`
+> ถ้า sha1 ไม่ตรง client จะปฏิเสธการดาวน์โหลด
+
+## หลักการแปล
+
+รายละเอียดทั้งหมดอยู่ใน [`TRANSLATION-BRIEF.md`](TRANSLATION-BRIEF.md) สรุปหลัก ๆ:
+
+- **ต้นฉบับภาษาจีนคือแหล่งอ้างอิงหลัก** ไม่ใช่ภาษาอังกฤษ ซึ่งเป็นคำแปลชั้นถัดมาและมีจุดคลาดเคลื่อน
+- **ศัพท์กลไกเกมเขียนด้วยอักษรอังกฤษ** (`Boss` `Quest` `Item` `Drop` `Craft` `Skill`)
+  ไม่ถอดเป็นอักษรไทย เพราะผู้เล่นไทยอ่านคำเหล่านี้เป็นภาษาอังกฤษอยู่แล้ว
+- **ชื่อม็อบและโครงสร้างของ Minecraft เขียนอังกฤษ** (`Pillager` ไม่ใช่ `พิลลาเจอร์`)
+- **ชื่อเฉพาะเชิงกวี** (ชื่ออาวุธ ชื่อบทในสมุด Quest) แปลเป็นไทย เน้นให้ได้อารมณ์
+- **เลี่ยงคำที่ถูกตามพจนานุกรมแต่คนไทยไม่ใช้** และเลี่ยงสำนวนแปลนิยายกำลังภายใน
+
+[`REVIEW-DECISIONS.md`](REVIEW-DECISIONS.md) บันทึกผลการตรวจทานรอบหนึ่ง
+(ตรวจโดย agent อิสระ 5 ตัว พบ 124 จุด) พร้อมคำตัดสินเรื่องชื่อเฉพาะ 18 ข้อ
+
+## สคริปต์
+
+| ไฟล์ | ใช้ทำอะไร |
+|---|---|
+| `package-pack.ps1` | บีบอัดเป็น zip แล้วคำนวณ sha1 ให้ |
+| `check-progress.ps1` | นับ key ที่แปลแล้ว/ยังไม่แปล |
+
+## License
+
+คำแปลในรีโปนี้จัดทำขึ้นสำหรับม็อดแพ็ก Casket of Reveries ซึ่งเป็นผลงานของ P1nero
+และสงวนลิขสิทธิ์ (All Rights Reserved) — รีโปนี้เผยแพร่เฉพาะไฟล์คำแปลที่จัดทำขึ้นใหม่
+ไม่ได้แจกจ่ายตัวม็อดหรือทรัพย์สินใด ๆ ของม็อดแพ็กต้นฉบับ

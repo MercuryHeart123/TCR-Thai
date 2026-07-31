@@ -1,0 +1,9 @@
+# Story spoilers -- working notes for the translator only, never publish
+_SPOILERS-DO-NOT-OPEN/
+
+# Local safety copies from the review pass
+_backup-before-review-fix/
+
+# Source lang files extracted from the mod jar. Kept locally as a reference
+# while translating, but not redistributed here -- TCRCore is All Rights Reserved.
+_source_en/
