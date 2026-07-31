@@ -5,7 +5,9 @@ Resource pack แปลภาษาไทยสำหรับม็อดแพ
 
 แปลโดย **MercuryHeart123** · แปลจากต้นฉบับภาษาจีนโดยตรง (ไม่ได้แปลผ่านภาษาอังกฤษ)
 
-## ขอบเขต
+## ขอบเขต — 2,619 key ใน 10 namespace
+
+### เนื้อหาของโมดแพ็กเอง (1,670 key)
 
 | ไฟล์ | จำนวน key |
 |---|---|
@@ -13,6 +15,23 @@ Resource pack แปลภาษาไทยสำหรับม็อดแพ
 | `assets/structure_translations/lang/th_th.json` | 416 |
 | `assets/ftb_translations/lang/th_th.json` | 335 |
 | `assets/tcrcore/texts/` | บทส่งท้าย · เครดิต · ข้อความหลังเครดิต |
+
+### ระบบสกิล (949 key)
+
+หน้า Skill Tree ดึงข้อความจากม็อดของผู้พัฒนาคนอื่นที่โมดแพ็กนำมาใช้ ไม่ได้อยู่ใน TCRCore
+
+| ไฟล์ | จำนวน key | ต้นฉบับที่ใช้แปล |
+|---|---|---|
+| `assets/epicfight/lang/th_th.json` | 468 | จีน |
+| `assets/wom/lang/th_th.json` | 302 | อังกฤษ (ไม่มีจีน) |
+| `assets/dodge_parry_reward/lang/th_th.json` | 66 | จีน |
+| `assets/epicskills/lang/th_th.json` | 66 | อังกฤษ (ไม่มีจีน) |
+| `assets/epicfightx/lang/th_th.json` | 27 | จีน |
+| `assets/epicfight_arachne/lang/th_th.json` | 10 | จีน |
+| `assets/epicfight_leonidas/lang/th_th.json` | 10 | จีน |
+
+> ยังไม่ได้แปล `datapack_edit.*` ของ Epic Fight (169 key) เพราะเป็น UI ของเครื่องมือ
+> แก้ datapack สำหรับผู้สร้างม็อด ผู้เล่นทั่วไปไม่มีทางเห็น
 
 ## วิธีใช้
 
@@ -28,8 +47,8 @@ Resource pack แปลภาษาไทยสำหรับม็อดแพ
 ใส่ใน `server.properties`:
 
 ```properties
-resource-pack=https://github.com/MercuryHeart123/TCR-Thai/releases/download/v1.0/TCR-Thai.zip
-resource-pack-sha1=636cab20f4e9a7cfa40ebafbafe4cdccd8326fa4
+resource-pack=https://github.com/MercuryHeart123/TCR-Thai/releases/download/v1.1/TCR-Thai.zip
+resource-pack-sha1=184e68bdff9f566aa0da88eb7496a023b218b653
 require-resource-pack=true
 ```
 
@@ -50,9 +69,21 @@ require-resource-pack=true
 - **ชื่อม็อบและโครงสร้างของ Minecraft เขียนอังกฤษ** (`Pillager` ไม่ใช่ `พิลลาเจอร์`)
 - **ชื่อเฉพาะเชิงกวี** (ชื่ออาวุธ ชื่อบทในสมุด Quest) แปลเป็นไทย เน้นให้ได้อารมณ์
 - **เลี่ยงคำที่ถูกตามพจนานุกรมแต่คนไทยไม่ใช้** และเลี่ยงสำนวนแปลนิยายกำลังภายใน
+- **ชื่อสกิลใช้แบบผสม** — ชื่อที่ตรงกับศัพท์กลไกที่ล็อกไว้คงอักษรอังกฤษ
+  (`Roll` `Guard` `Parry` `Stamina`) เพื่อให้ยังเทียบกับคลิปสอน combo ต่างประเทศได้
+  ส่วนชื่อท่าโจมตีแปลไทย (`Dancing Edge` → ระบำคมดาบ)
 
 [`REVIEW-DECISIONS.md`](REVIEW-DECISIONS.md) บันทึกผลการตรวจทานรอบหนึ่ง
 (ตรวจโดย agent อิสระ 5 ตัว พบ 124 จุด) พร้อมคำตัดสินเรื่องชื่อเฉพาะ 18 ข้อ
+
+### ข้อควรรู้เรื่องต้นฉบับ
+
+ฉบับภาษาอังกฤษของโมดแพ็กเป็นคำแปลชั้นถัดมาจากภาษาจีน และมีจุดคลาดเคลื่อนจริง เช่น
+ตัดคำขยายในชื่อมิติทิ้ง ระบุจำนวนม็อบผิด และสลับสรรพนามในบทส่งท้ายจนผู้กระทำเปลี่ยนตัว
+คำแปลชุดนี้จึงยึดภาษาจีนเป็นหลักทุกครั้งที่มี
+
+ในทางกลับกัน `wom` และ `epicskills` มีเฉพาะภาษาอังกฤษ (และสะกดผิดหลายจุด เช่น
+`allready` `recieved` `wich`) ส่วนนี้จึงแปลตามความหมายที่ตั้งใจ ไม่ได้แปลตามตัวอักษร
 
 ## สคริปต์
 
@@ -66,3 +97,7 @@ require-resource-pack=true
 คำแปลในรีโปนี้จัดทำขึ้นสำหรับม็อดแพ็ก Casket of Reveries ซึ่งเป็นผลงานของ P1nero
 และสงวนลิขสิทธิ์ (All Rights Reserved) — รีโปนี้เผยแพร่เฉพาะไฟล์คำแปลที่จัดทำขึ้นใหม่
 ไม่ได้แจกจ่ายตัวม็อดหรือทรัพย์สินใด ๆ ของม็อดแพ็กต้นฉบับ
+
+หมายเหตุ: คำแปลส่วน **ระบบสกิล** เป็นของม็อดคนละเจ้ากับ TCRCore (Epic Fight,
+Weapons of Miracles ฯลฯ) จึงส่งขึ้น repo ของ TCRCore ไม่ได้ ส่วนนี้จัดทำไว้สำหรับ
+ใช้กับเซิร์ฟเวอร์ที่เล่นโมดแพ็กนี้โดยเฉพาะ
