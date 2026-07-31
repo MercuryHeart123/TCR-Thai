@@ -28,13 +28,17 @@ Resource pack แปลภาษาไทยสำหรับม็อดแพ
 ใส่ใน `server.properties`:
 
 ```properties
-resource-pack=<direct download URL ของ TCR-Thai.zip>
-resource-pack-sha1=<sha1 ที่ package-pack.ps1 พิมพ์ออกมา>
+resource-pack=https://github.com/MercuryHeart123/TCR-Thai/releases/download/v1.0/TCR-Thai.zip
+resource-pack-sha1=636cab20f4e9a7cfa40ebafbafe4cdccd8326fa4
 require-resource-pack=true
 ```
 
-> ⚠️ แก้ไฟล์แปลทุกครั้งต้องรัน `package-pack.ps1` ใหม่ แล้วอัปเดต `resource-pack-sha1`
-> ถ้า sha1 ไม่ตรง client จะปฏิเสธการดาวน์โหลด
+> ⚠️ **ใช้ URL ของ Releases ไม่ใช่ `raw.githubusercontent.com`**
+> CDN ของ raw cache ไฟล์ราว 5 นาที ทำให้ช่วงหลังอัปเดตจะจ่ายไฟล์เก่าที่ sha1 ไม่ตรงกับใน
+> `server.properties` ถ้าตั้ง `require-resource-pack=true` ไว้ ผู้เล่นจะเข้าเซิร์ฟไม่ได้ทั้งหมด
+>
+> ⚠️ แก้ไฟล์แปลทุกครั้งต้องรัน `package-pack.ps1` ใหม่ ออก release tag ใหม่
+> แล้วอัปเดตทั้ง URL และ `resource-pack-sha1` พร้อมกัน
 
 ## หลักการแปล
 
